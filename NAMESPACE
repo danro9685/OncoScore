@@ -10,16 +10,24 @@ export(perform.query.from.region)
 export(perform.query.timeseries)
 export(plot.oncoscore)
 export(plot.oncoscore.timeseries)
-importFrom(biomaRt,getBM)
-importFrom(biomaRt,useDataset)
-importFrom(biomaRt,useMart)
-importFrom(grDevices,dev.copy2pdf)
-importFrom(grDevices,rainbow)
-importFrom(graphics,axis)
-importFrom(graphics,barplot)
-importFrom(graphics,legend)
-importFrom(graphics,lines)
-importFrom(graphics,plot)
+importFrom(biomaRt,
+  getBM,
+  useDataset,
+  useMart
+)
+importFrom(grDevices,
+  dev.copy2pdf,
+  rainbow
+)
+importFrom(graphics,
+  axis,
+  barplot,
+  legend,
+  lines,
+  plot
+)
 importFrom(methods,is)
-importFrom(utils,read.table)
-importFrom(utils,write.table)
+importFrom(utils,
+  read.table,
+  write.table
+)
